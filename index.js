@@ -10,7 +10,6 @@ function checkTable() {
         errorMsg.innerHTML = ""
         table.innerHTML = "";
 
-
         if (sOption == "Multiplication") {
             var answer = 1
 
