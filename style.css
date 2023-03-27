@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #738829 !important;
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 2em;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+input, button, select {
+    padding: 10px;
+}
+
+#errorMsg {
+    text-align: center;
+}
