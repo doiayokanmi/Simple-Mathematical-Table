@@ -2,11 +2,9 @@ function checkTable() {
   
     var input = document.getElementById("input");
 
-    // var table = document.getElementsByTagName("table");
-
     var sOption = operators.value;
     
-    if (input.value != "") {
+    if (input.value != "" && input.value > 0) {
         errorMsg.innerHTML = ""
         table.innerHTML = "";
 
